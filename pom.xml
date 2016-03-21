@@ -7,13 +7,13 @@
 
 	<groupId>org.activiti.custom</groupId>
 	<artifactId>activiti-custom-user-management</artifactId>
-	<version>5.12</version>
+	<version>5.17.0</version>
 	<packaging>jar</packaging>
 	<name>Activiti - Custom User Management</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<activiti-version>5.12</activiti-version>
+		<activiti-version>5.17.0</activiti-version>
 		<groovy-version>1.7.5</groovy-version>
 		<h2-version>1.2.132</h2-version>
 		<junit-version>4.8.1</junit-version>
@@ -57,30 +57,5 @@
 			<version>2.5</version>
 		</dependency>
 	</dependencies>
-
-
-	<repositories>
-		<repository>
-			<id>Alfresco Maven Repository</id>
-			<url>https://maven.alfresco.com/nexus/content/groups/public/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>buzzmedia</id>
-			<url>http://maven.thebuzzmedia.com</url> <!-- ImageScalr -->
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>Alfresco thirdparty</id>
-			<url>https://maven.alfresco.com/nexus/content/repositories/thirdparty/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 
 </project>
