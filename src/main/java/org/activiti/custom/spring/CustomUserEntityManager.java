@@ -56,11 +56,6 @@ public class CustomUserEntityManager extends UserEntityManager {
 	}
 
 	@Override
-	public void updateUser(UserEntity updatedUser) {
-		throw new IllegalArgumentException("Not impl");
-	}
-
-	@Override
 	public void deleteUser(String userId) {
 		throw new IllegalArgumentException("Not impl");
 	}

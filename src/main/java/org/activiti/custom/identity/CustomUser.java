@@ -73,4 +73,10 @@ public class CustomUser implements User {
 
 	}
 
+	@Override
+	public boolean isPictureSet() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

@@ -167,6 +167,11 @@ public class CustomUserQuery implements UserQuery {
 				throw new IllegalArgumentException("Not Impl");
 			}
 
+			@Override
+			public UserQuery userFullNameLike(String arg0) {
+				throw new IllegalArgumentException("Not Impl");
+			}
+
 		};
 
 		return aSubUserQuery;
@@ -234,6 +239,11 @@ public class CustomUserQuery implements UserQuery {
 
 	public void setUserDao(UserDao userDao) {
 		this.userDao = userDao;
+	}
+
+	@Override
+	public UserQuery userFullNameLike(String arg0) {
+		throw new IllegalArgumentException("Not Impl");
 	}
 
 }
